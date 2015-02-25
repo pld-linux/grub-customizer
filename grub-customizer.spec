@@ -17,6 +17,7 @@ BuildRequires:	openssl-devel
 Requires:	grub2
 Requires:	gtk-update-icon-cache
 Requires:	hicolor-icon-theme
+Suggests:	hwinfo
 ExcludeArch:	%{arm}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
